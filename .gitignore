@@ -1,0 +1,20 @@
+node_modules/
+dist/
+*.log
+*.local
+.env
+.env.*
+!.env.example
+
+# Local credentials and service-account keys
+serviceAccountKey.json
+**/serviceAccountKey.json
+backend/services/auth/1.json
+
+# Local uploads and generated files
+backend/services/resume/uploads/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
