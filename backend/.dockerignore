@@ -1,0 +1,25 @@
+# Secrets and local environment files
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Dependencies and generated output
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+
+# Local uploads, credentials, and development-only files
+services/resume/uploads/
+**/serviceAccountKey.json
+services/auth/1.json
+.git/
+.github/
+.vscode/
+.idea/
+.DS_Store
